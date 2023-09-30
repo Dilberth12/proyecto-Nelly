@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* avatar */
+.usuario {
+    text-align: center;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 20px;
+}
+
+#avatar {
+    max-width: 100px;
+    border-radius: 50%;
+}
+
+#nombre {
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+#detalles {
+    font-size: 1.2em;
+}
+/* menu de opciones */
+.menu {
+    width: 250px;
+    background-color: #333;
+    color: #fff;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+.menu ul {
+    list-style: none;
+    padding: 0;
+}
+
+.menu li {
+    padding: 10px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.contenido {
+    margin-left: 260px;
+    padding: 20px;
+}
